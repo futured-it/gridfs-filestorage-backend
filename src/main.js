@@ -6,10 +6,11 @@ const mongoose = require('mongoose');
 const multer = require('multer');
 const { GridFsStorage } = require('multer-gridfs-storage');
 const Grid = require('gridfs-stream');
+require('dotenv').config();
 
 // Basic settings
-const port = 2349 // *integer
-const mongodbUrl = "mongodb://127.0.0.1:27017/test"
+const port = process.env.PORT
+const mongodbUrl = process.env.MONGODB_URL
 
 // Express setting up
 const app = express()
