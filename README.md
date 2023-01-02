@@ -18,3 +18,10 @@ $ npm i
 $ npm start
 ```
 If you did everything right, go to localhost:2349 (or whatever port you set) in your browser, you should see label Hello!.
+
+### Routes
+- `/` - Welcome (GET)
+- `/form` - File upload form (GET)
+- `/addfile` - File upload (POST)
+- `/fileslist` - Files list (GET)
+- `/getfile/...` - Returns file content by name (GET)
