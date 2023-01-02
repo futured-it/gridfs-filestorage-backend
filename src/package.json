@@ -1,7 +1,7 @@
 {
-  "name": "mongo-store",
+  "name": "gridfs-filestorage-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Small Express.js backend to store files in MongoDB using GridFS.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Hej!\" && exit 1",
